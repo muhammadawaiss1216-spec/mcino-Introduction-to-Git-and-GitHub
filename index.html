@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+
+        <div class="logo">
+            Travel Recommendation
+        </div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="search-area">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Enter a destination..."
+            >
+
+            <button onclick="searchRecommendations()">
+                Search
+            </button>
+
+            <button onclick="clearResults()">
+                Clear
+            </button>
+        </div>
+
+    </nav>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h1>Explore Your Next Destination</h1>
+
+            <p>
+                Discover beautiful places around the world and find
+                the perfect destination for your next adventure.
+            </p>
+
+            <p>
+                Search for beaches, temples, countries and other
+                amazing travel destinations.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Search Results -->
+    <section class="results-section">
+
+        <h2>Travel Recommendations</h2>
+
+        <div id="results" class="results-container">
+
+            <p class="instruction">
+                Search for a destination to see recommendations.
+                Try typing <strong>beach</strong>.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Travel Recommendation Website
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
