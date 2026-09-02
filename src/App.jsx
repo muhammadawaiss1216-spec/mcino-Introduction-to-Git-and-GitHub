@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutUs from "./AboutUs";
 import ProductList from "./ProductList";
+import CartItem from "./CartItem";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <AboutUs />
 
       <ProductList />
+
+      <CartItem />
     </div>
   );
 }
