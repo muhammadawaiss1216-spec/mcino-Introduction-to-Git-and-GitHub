@@ -1,16 +1,42 @@
-# React + Vite
+# Paradise Nursery
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Paradise Nursery is a plant shopping application built with React and Redux Toolkit.
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project allows users to browse a collection of plants, add plants to a shopping cart, update quantities, and remove plants from the cart.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Display plants by category
+- Add plants to cart
+- Increase and decrease plant quantities
+- Remove plants from cart
+- View total items in cart
+- View total price
+- Responsive React user interface
+- Redux Toolkit for cart state management
 
-## Expanding the Oxlint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- Vite
+- Redux Toolkit
+- JavaScript
+- CSS
+
+## Project Structure
+
+- `src/App.jsx` — Main application and landing page
+- `src/AboutUs.jsx` — About Paradise Nursery section
+- `src/ProductList.jsx` — Plant product listing
+- `src/CartItem.jsx` — Shopping cart
+- `src/redux/CartSlice.jsx` — Redux cart state management
+- `src/App.css` — Application styling
+
+## How to Run
+
+Install dependencies:
+
+```bash
+npm install
